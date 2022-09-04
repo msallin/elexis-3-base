@@ -6,7 +6,6 @@ import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import ch.elexis.core.model.IContact;
-import ch.elexis.core.model.format.AddressFormatUtil;
 import ch.elexis.core.types.Country;
 import ch.elexis.ebanking.qr.QRBillDataException.SourceType;
 import ch.elexis.ebanking.qr.model.QRBillData;
