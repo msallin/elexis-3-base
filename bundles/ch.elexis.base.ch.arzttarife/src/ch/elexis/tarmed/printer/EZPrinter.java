@@ -34,17 +34,17 @@ import ch.rgw.tools.StringTool;
 public class EZPrinter {
 	
 	public static class EZPrinterData {
-		Money amountTarmed;
-		Money amountDrug;
-		Money amountLab;
-		Money amountMigel;
-		Money amountPhysio;
-		Money amountUnclassified;
+		public Money amountTarmed;
+		public Money amountDrug;
+		public Money amountLab;
+		public Money amountMigel;
+		public Money amountPhysio;
+		public Money amountUnclassified;
 		
-		Money due;
-		Money paid;
+		public Money due;
+		public Money paid;
 		
-		String paymentMode;
+		public String paymentMode;
 		
 		public EZPrinterData(){
 			amountTarmed = new Money();
