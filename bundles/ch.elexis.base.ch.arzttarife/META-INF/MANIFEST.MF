@@ -24,6 +24,7 @@ Export-Package: ch.elexis.TarmedRechnung,
  ch.elexis.arzttarife_schweiz,
  ch.elexis.data,
  ch.elexis.data.importer,
+ ch.elexis.tarmed.printer,
  ch.elexis.tarmedprefs,
  ch.elexis.views
 Bundle-ClassPath: .
