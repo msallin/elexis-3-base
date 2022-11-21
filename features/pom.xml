@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-<modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
   <artifactId>ch.elexis.base.features</artifactId>
   <name>Elexis-Base features</name>
@@ -15,7 +15,7 @@
   </parent>
   <modules>
     <module>ch.elexis.labororder.lg1.feature</module>
-  	<module>ch.elexis.importer.aeskulap.feature</module>
+    <module>ch.elexis.importer.aeskulap.feature</module>
     <module>ch.elexis.hl7.message.feature</module>
     <module>at.gruber.elexis.mythic22.feature</module>
     <module>at.medevit.ch.artikelstamm.medcalendar.feature</module>
@@ -30,7 +30,7 @@
     <module>at.medevit.elexis.inbox.feature</module>
     <module>at.medevit.elexis.loinc.feature</module>
     <module>at.medevit.elexis.medietikette.feature</module>
-    <module>ch.berchtold.privatrechnung.feature</module>
+    <!-- module>ch.berchtold.privatrechnung.feature</module -->
     <module>ch.docbox.elexis.feature</module>
     <module>ch.elexis.agenda.feature</module>
     <module>ch.elexis.archie.patientstatistik.feature</module>

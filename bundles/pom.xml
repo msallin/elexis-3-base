@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
@@ -57,7 +57,7 @@
     <module>at.medevit.elexis.swissmedic</module>
     <module>at.medevit.elexis.tarmed.model</module>
     <module>at.medevit.elexis.weblinks</module>
-    <module>ch.berchtold.privatrechnung</module>
+    <!-- module>ch.berchtold.privatrechnung</module -->
     <module>ch.docbox.elexis</module>
     <module>ch.elexis.agenda</module>
     <module>ch.elexis.archie.patientstatistik</module>
@@ -138,5 +138,5 @@
     <module>org.iatrix</module>
     <module>waelti.statistics</module>
     <module>ch.itmed.lmz.risch.laborder</module>
-</modules>
+  </modules>
 </project>
