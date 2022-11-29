@@ -4,5 +4,5 @@ Bundle-Name: Afinion Test
 Bundle-SymbolicName: ch.elexis.connect.afinion.test
 Bundle-Version: 3.0.0.qualifier
 Fragment-Host: ch.elexis.connect.afinion
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Require-Bundle: org.junit
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: junit;bundle-version="4.8.2"

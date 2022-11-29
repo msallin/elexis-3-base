@@ -5,6 +5,6 @@ Bundle-SymbolicName: at.medevit.elexis.ehc.vacdoc.test
 Bundle-Version: 1.0.0.qualifier
 Fragment-Host: at.medevit.elexis.ehc.vacdoc;bundle-version="3.0.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Require-Bundle: org.junit,
- ch.elexis.core.data
+Require-Bundle: ch.elexis.core.data,
+ junit;bundle-version="4.8.2"
 Import-Package: org.osgi.framework

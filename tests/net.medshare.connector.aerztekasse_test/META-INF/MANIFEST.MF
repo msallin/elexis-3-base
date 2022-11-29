@@ -6,7 +6,7 @@ Bundle-Version: 3.0.0.qualifier
 Bundle-Vendor: medshare.net
 Fragment-Host: net.medshare.connector.aerztekasse
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Require-Bundle: org.junit,
- ch.elexis.core.application;bundle-version="3.0.0"
+Require-Bundle: ch.elexis.core.application;bundle-version="3.0.0",
+ junit;bundle-version="4.8.2"
 Export-Package: net.medshare.connector.aerztekasse_test,
  net.medshare.connector.aerztekasse_test.invoice
