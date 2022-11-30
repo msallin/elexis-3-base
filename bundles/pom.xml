@@ -126,8 +126,8 @@
     <module>ch.weirich.templator.pages</module>
     <module>com.hilotec.elexis.kgview</module>
     <module>com.hilotec.elexis.messwerte.v2</module>
-    <module>com.hilotec.elexis.opendocument</module>
-    <module>com.hilotec.elexis.opendocument2omnivore</module>
+    <!-- module>com.hilotec.elexis.opendocument</module>
+    <module>com.hilotec.elexis.opendocument2omnivore</module -->
     <module>com.hilotec.elexis.pluginstatistiken</module>
     <module>com.hilotec.elexis.stickerprefix</module>
     <module>com.hilotec.elexis.toolbar</module>
