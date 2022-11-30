@@ -8,6 +8,8 @@
  * Contributors:
  *     Dennis Schenk - initial implementation
  *     Peter Siska	 - initial implementation
+ *  
+ *  11/22 Update JfreeChart - GWeirich  
  *******************************************************************************/
 package ch.unibe.iam.scg.archie.controller;
 
@@ -20,12 +22,12 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.CategoryPlot;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.renderer.category.LineAndShapeRenderer;
+import org.jfree.chart.swt.ChartComposite;
 import org.jfree.chart.title.TextTitle;
 import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.DefaultPieDataset;
 import org.jfree.data.general.PieDataset;
-import org.jfree.experimental.chart.swt.ChartComposite;
 
 import ch.rgw.tools.Money;
 import ch.unibe.iam.scg.archie.ArchieActivator;

@@ -11,9 +11,9 @@ Require-Bundle: org.eclipse.ui,
  ch.elexis.core.ui,
  ch.elexis.core.data,
  junit;bundle-version="4.8.2",
- jfree.chart-swt,
  org.jfree.chart;bundle-version="1.0.14",
- org.jfree.jcommon;bundle-version="1.0.17"
+ org.jfree.jcommon;bundle-version="1.0.17",
+ org.jfree.chart-swt;bundle-version="1.0.0"
 Bundle-ActivationPolicy: lazy
 Bundle-Activator: ch.unibe.iam.scg.archie.ArchieActivator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
