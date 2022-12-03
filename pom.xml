@@ -9,10 +9,16 @@
 
     <repositories>
       <repository>
-        <id>elexis.3.target</id>
-        <url>http://download.elexis.info/elexis/${git.target.branch}/p2/target</url>
+        <id>ungrad target</id>
+        <url>https://elexis.ch/ungrad2023/ungrad-target</url>
         <layout>p2</layout>
       </repository>
+      <repository>
+        <id>ungrad extras</id>
+        <url>https://elexis.ch/ungrad2023/ungrad-target-extras</url>
+        <layout>p2</layout>
+      </repository>
+      
       <repository>
         <id>elexis.3.core</id>
         <!-- url>http://download.elexis.info/elexis/${git.core.branch}/p2/elexis-3-core</url -->
@@ -29,14 +35,14 @@
 	</properties>
 
 	<organization>
-		<name>elexis.info</name>
-		<url>http://www.elexis.info</url>
+		<name>elexis.ch</name>
+		<url>http://www.elexis.ch</url>
 	</organization>
 
 	<scm>
-		<connection>scm:git:https://github.com/elexis/elexis-3-base.git</connection>
-		<developerConnection>scm:git:https://github.com/elexis/elexis-3-base.git</developerConnection>
-		<url>https://github.com/elexis/elexis-3-base</url>
+		<connection>scm:git:https://github.com/rgwch/elexis-3-base.git</connection>
+		<developerConnection>scm:git:https://github.com/rgwch/elexis-3-base.git</developerConnection>
+		<url>https://github.com/rgwch/elexis-3-base</url>
 	</scm>
 
 	<licenses>
@@ -47,11 +53,9 @@
 	</licenses>
 
 	<issueManagement>
-		<url>https://github.com/elexis/elexis-3-base/issues</url>
+		<url>https://github.com/rgwch/elexis-3-base/issues</url>
 		<system>Github</system>
 	</issueManagement>
-
-	<description>Elexis-Server for headless operation</description>
 
 	<modules>
 		<!--module>target</module-->
