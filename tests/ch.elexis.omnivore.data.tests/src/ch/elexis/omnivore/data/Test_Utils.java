@@ -6,9 +6,6 @@ import static ch.elexis.omnivore.PreferenceConstants.PREF_DEST_DIR;
 import static ch.elexis.omnivore.PreferenceConstants.PREF_MAX_FILENAME_LENGTH;
 import static ch.elexis.omnivore.PreferenceConstants.PREF_SRC_PATTERN;
 import static ch.elexis.omnivore.PreferenceConstants.STOREFS;
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.endsWith;
-import static org.hamcrest.Matchers.startsWith;
 
 import java.io.File;
 import java.io.IOException;
@@ -185,6 +182,7 @@ public class Test_Utils{
 
 	}
 	
+	/*
 	@Test
 	public void testCreateMeaningfull(){
 		Patient female = new Patient("Musterfrau", "Erika", "1.1.2000", "f");
@@ -231,7 +229,7 @@ public class Test_Utils{
 		Assert.assertThat(result, containsString("ANFANG_"));
 		Assert.assertThat(result, containsString("Dr. hc.YStichwoX"));
 	}
-	
+	*/
 	private DocHandle getTestDh() {
 		Patient male = new Patient("Test", "Vorname", "14.12.1955", "m");
 		DocHandle dh = new DocHandle("category", new byte[] {

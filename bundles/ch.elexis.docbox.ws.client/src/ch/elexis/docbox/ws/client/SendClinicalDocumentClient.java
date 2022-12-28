@@ -7,7 +7,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 import javax.xml.bind.JAXBException;
-import javax.xml.ws.BindingProvider;
+import javax.xml.BindingProvider;
 
 import org.hl7.v3.ClinicalDocumentType;
 import org.hl7.v3.POCDMT000040ClinicalDocument;
