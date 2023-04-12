@@ -9,7 +9,7 @@ Ein Dokumentverwaltungs-Plugin in Elexis, z.B. Omnivore plus oder Omnivore direc
 
 h2. Konfiguration
 
-Erstellen Sie ein Verzeichnis, in das die Importe gespeicher werde sollen, und stellen Sie das Eingangsfach darauf ein.
+Erstellen Sie ein Verzeichnis, in das die Importe gespeicher werden sollen, und stellen Sie das Eingangsfach darauf ein.
 
 !inbox1.png!
 
