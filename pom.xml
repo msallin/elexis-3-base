@@ -35,7 +35,7 @@
 
   <organization>
     <name>elexis.ch</name>
-    <url>http://www.elexis.ch</url>
+    <url>http://elexis.ch</url>
   </organization>
 
   <scm>
@@ -378,7 +378,7 @@ Without it Maven would put two versions of each class file into the jars
   <distributionManagement>
     <site>
       <id>www.elexis.info</id>
-      <url>http://www.elexis.info</url>
+      <url>http://elexis.info</url>
     </site>
   </distributionManagement>
 </project>
